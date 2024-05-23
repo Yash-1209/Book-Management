@@ -1,0 +1,76 @@
+/* src/components/BookTable.css */
+
+body {
+    background-color: #f8f9fa;
+}
+
+.book-table th {
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.book-table th, .book-table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stylish-heading {
+    color: #343a40;
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.stylish-form {
+    display: inline-block;
+    text-align: center;
+}
+
+.stylish-form label {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #343a40;
+}
+
+.stylish-input {
+    display: inline-block;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #343a40;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.stylish-input:focus {
+    border-color: #ff7e5f;
+    box-shadow: 0 0 5px rgba(255, 126, 95, 0.5);
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form select {
+    margin-bottom: 15px;
+}
+/* src/components/BookTable.css */
+
+.small-dropdown {
+    width: auto;
+    font-size: 0.8rem;
+}
