@@ -80,10 +80,10 @@ const BookTable = () => {
     }
 
     return (
-        <Container className="mt-5">
+        <Container className="my-5">
             <Row>
                 <Col>
-                    <h2 className="text-center mb-4 stylish-heading">Book Records</h2>
+                    <h2 className="text-center mb-4 stylish-heading ">Book Records</h2>
                 </Col>
             </Row>
             <Row className="justify-content-center mt-3">
